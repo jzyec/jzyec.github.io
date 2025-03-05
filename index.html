@@ -1,1 +1,79 @@
-HOliii
+<!DOCTYPE html>
+<html lang="es">
+  <style>
+    header{
+      background-color: orange;
+        margin: 20px 10px 10px 10px;
+        border-radius: 20px;
+        padding: 10px ;
+    }
+    body{
+      font-family: Arial, sans-serif;
+      background-image: url(https://www.blogdelfotografo.com/wp-content/uploads/2021/12/fondo_blanco_vineteado.webp);
+    }
+    img{
+      width: 30%;
+      height: auto;
+    }
+    h2{
+      color: #FFA500
+    }
+    footer{
+      background-color: orange;
+      margin: 20px 10px 10px 10px;
+      border-radius: 20px;
+      padding: 10px ;
+
+      img{
+      width: 5%;
+      height: 5%;
+      
+    }
+    .logo{
+      width: 30px;
+      height: auto;
+    }
+  </style>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi página web personal</title>
+</head>
+<body>
+  <header>
+    <h1>Jorge Zárate Martínez</h1>
+  </header>
+  <main>
+  <h2>Sobre mí</h2>
+  <p>Me llamo Jorge Zárate Martínez, y soy un estudiante de 17 años en el instituto Felipe VI.   </p>
+  <img src="https://www.yecla.es/wp-content/uploads/2022/06/IES-Felipe-VI.jpg" alt="Foto de mi instituto">
+  <p>Visita la <a href="https://www.murciaeduca.es/iesfelipeviyecla/sitio/" target="_blank">página web de mi instituo</a>.</p>
+  <h2>Mis gustos musicales</h2>
+  <p>Mi cantante favorita es Billie Eilish, y junto a ella Daniel Caesar. Otros cantantes que me gustan son:</p>
+  <ul>
+    <li>Sufjan Stevens</li>
+    <li>Rosalía</li>
+    <li>Conan Gray</li>
+  </ul>
+  <h2>Contáctame</h2>
+  <form action="/submit" method="post">
+    <label for="name">Nombre:</label>
+    <input type="text" id="name" name="name" required><br>
+    <label for="email">Correo:</label>
+    <input type="email" id="email" name="email" required><br>
+    <button type="submit">Enviar</button>
+  </form>
+  </main>
+  <footer>
+    <p>Mis redes sociales:</p>
+      <span>
+        <a href="https://www.instagram.com/zzaraatee/">
+          <img src="linsta.jpg"
+        </a>
+        <a href="https://x.com/zzaraatee">
+          <img src="X_logo.jpg"
+        </a>
+      </span>
+  </footer>
+</body>
+</html>
